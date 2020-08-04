@@ -1,0 +1,57 @@
+body {
+    background: #010001;
+    margin: 0;
+    padding-top: 54px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1230px;
+    width: 90%;
+    margin:auto;
+    margin-bottom: 122px;
+}
+
+.list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.item-link {
+    font-size: 12px;
+    line-height: 14px; 
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.title {
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 26px;
+}
+
+.subtitle {
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    font-weight: 300;
+    text-transform: lowercase;
+    margin: 0;
+}
+
+.world {
+    height: 1000px;
+    background:#010001 url(../img/world.jpg) center
+}
