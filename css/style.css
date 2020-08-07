@@ -170,9 +170,6 @@ td {
  }
 
  @media (max-width: 960px) {
-     body {
-         background-color:rebeccapurple;
-     }
     .rocket {
         max-width: 220px;
     }
@@ -180,13 +177,13 @@ td {
     td{
         width: 250px;
     }
+
+    .features {
+        padding-bottom: 0px;
+    }
  }
 
  @media (max-width: 768px) {
-    body {
-        background-color:red;
-    }
-
     .header {
         flex-direction: column;
         align-items: center;
@@ -198,6 +195,9 @@ td {
 
     .main-nav {
         margin-bottom: 20px;
+    }
+    .rocket {
+        max-width: 180px;
     }
 
     .title {
@@ -211,7 +211,45 @@ td {
  }
 
  @media (max-width: 576px) {
-    body {
-        background-color:green;
+        .rocket {
+            position: static;
+        }
+
+        .header {
+            margin-bottom: 50px;
+        }
+
+        .title {
+            font-size: 45px;
+        }
+
+        .description::after { 
+            height: 50px;
+            margin-top: 18px; 
+        }
+
+        .video {
+            width: 100%;
+        }
+
+        .td {
+            font-size: 14px;
+            width: 150px;
+        }
+
+        .overview {
+            margin-bottom: 20px;
+        }
+
+        .performance {
+            padding-top: 50px;
+        }
+
+        
+
+        .footer-nav .item-link {
+       
+            line-height: 30px;
+        }
+    
     }
- }
